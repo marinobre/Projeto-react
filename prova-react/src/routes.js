@@ -6,12 +6,11 @@ import Forms from './pages/Forms'
 import Pricing from './pages/Pricing'
 import { Switch, Route } from "react-router-dom";
 
-
-
 export const Routes = () => {
     return (
         <Switch>
             <Route path="/" component={Home} exact />
+            <Route path="/home" component={Home} />
             <Route path="/blocks" components={Blocks} />
             <Route path="/cards" components={Cards} />
             <Route path="/forms" components={Forms} />
