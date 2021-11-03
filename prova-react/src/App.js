@@ -1,12 +1,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './components/template/Footer';
+import './assets/css/font-awesome.min.css';
+
+
+import Header from './components/template/header/Header';
 import Home from './pages/Home';
+import Footer from './components/template/footer/Footer';
+
 
 function App() {
   return (
     <>
-    {/* <Header/> */}
+    <Header/>
     <Home/>
     <Footer/>
     </>
