@@ -8,16 +8,15 @@ function Forms() {
 <div className="main-content">
 <div className="container-fluid content-top-gap">
 
-       
-        <nav aria-label="breadcrumb" className="mb-4">
+    <nav aria-label="breadcrumb" className="mb-4">
           <ol className="breadcrumb my-breadcrumb">
             <li className="breadcrumb-item"><a href="index.html">Home</a></li>
             <li className="breadcrumb-item active" aria-current="page">Forms</li>
           </ol>
-        </nav>
-        
-        <section className="forms">
-         
+    </nav>
+       
+{/* <section className="forms">
+          
           <div className="card card_border py-2 mb-4">
             <div className="cards__heading">
               <h3>Forms <span></span></h3>
@@ -44,7 +43,7 @@ function Forms() {
               </form>
             </div>
           </div>
-         
+          
           <div className="card card_border py-2 mb-4">
             <div className="card-body">
               <form action="#" method="post">
@@ -94,9 +93,16 @@ function Forms() {
               </form>
             </div>
           </div>
+          
 
-    
+
+
+        </section> */}
+       
+
 </div>
+</div>
+
 
     
     );
