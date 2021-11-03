@@ -1,20 +1,20 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/font-awesome.min.css';
-
+import { BrowserRouter as Router } from "react-router-dom";
+import { Routes } from "./routes";
 
 import Header from './components/template/header/Header';
-import Home from './pages/Home';
+import Sidebar from './components/template/sidebar/Sidebar';
 import Footer from './components/template/footer/Footer';
-
 
 function App() {
   return (
-    <>
-    <Header/>
-    <Home/>
-    <Footer/>
-    </>
+    <Router>
+      <Header />
+      <Sidebar />
+      <Routes />
+      <Footer />
+    </Router>
   );
 }
 
