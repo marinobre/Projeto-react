@@ -3175,7 +3175,7 @@ a:hover {
 .login-bottom-right li a:hover {
   color: #FFF;
   text-decoration: underline; }
-
+/* 
 footer.dashboard {
   padding: 10px 20px;
   text-align: center;
@@ -3191,7 +3191,7 @@ footer.dashboard p {
   left: 52px; }
 
 footer.dashboard p a:hover {
-  text-decoration: underline; }
+  text-decoration: underline; } */
 
 .nofitications-dropdown li .dropdown-menu:before {
   content: "";
@@ -4900,11 +4900,11 @@ a.github {
   font-size: 20px;
   color: var(--primary);
   border-bottom: 1px solid #eee; }
-
+/* 
 .chart-grid__footer {
   background: none;
   font-size: 16px;
-  border-top: 1px solid #eee; }
+  border-top: 1px solid #eee; } */
 
 .card_border {
   border: none;
@@ -4945,9 +4945,9 @@ a.github {
 .cart-grid__info {
   padding: 25px;
   background: #fff; }
-
+/* 
 .card-footer--padding {
-  padding: 30px 25px; }
+  padding: 30px 25px; } */
 
 p.stat-text {
   font-size: 14px;
