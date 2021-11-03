@@ -1,9 +1,11 @@
 import './App.css';
+import Footer from './components/template/Footer';
+
 
 function App() {
   return (
     <>
-    teste
+    <Footer/>
     </>
   );
 }
